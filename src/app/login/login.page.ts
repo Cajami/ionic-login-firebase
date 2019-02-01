@@ -23,6 +23,7 @@ export class LoginPage implements OnInit {
   async login() {
     try {
       const res = await this.auth.auth.signInWithEmailAndPassword(this.usuario + '@familiahi.com', this.password);
+      this.router.navigate(['/main']);
       console.log(res);
     } catch (error) {
       console.log('si errores');
