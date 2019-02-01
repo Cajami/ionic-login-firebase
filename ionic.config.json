@@ -1,5 +1,6 @@
 {
   "name": "login-firebase",
   "integrations": {},
-  "type": "angular"
+  "type": "angular",
+  "id": "c527c61e"
 }
